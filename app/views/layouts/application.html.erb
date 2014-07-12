@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Railsgirls Sox</title>
-  <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css" />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css" />
 <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css" />
 <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css" />
@@ -24,7 +24,7 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/ideas">Ideas</a></li>
+        <li ><%= link_to 'New Idea', new_idea_path %></li>
       </ul>
     </div>
   </div>
