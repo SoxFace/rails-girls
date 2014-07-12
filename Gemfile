@@ -11,6 +11,7 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
 # RGS tutorial
 gem 'carrierwave'
 # Use SCSS for stylesheets
